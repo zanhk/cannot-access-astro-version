@@ -1,24 +1,11 @@
 {
-	"name": "@keystatic/templates-astro",
+	"name": "cannot-access-astro-version",
 	"version": "0.0.19",
 	"license": "MIT",
 	"dependencies": {
 		"@astrojs/cloudflare": "^10.2.6",
 		"@astrojs/markdoc": "^0.11.0",
-		"@astrojs/react": "^3.4.0",
-		"@astrojs/tailwind": "^5.1.0",
-		"@types/react": "^18.3.3",
-		"@types/react-dom": "^18.3.0",
-		"astro": "^4.9.1",
-		"astro-icon": "^1.1.0",
-		"astro-robots-txt": "^1.0.0",
-		"katex": "^0.16.10",
-		"react": "^18.3.1",
-		"react-dom": "^18.3.1",
-		"tailwindcss": "^3.4.3"
-	},
-	"devDependencies": {
-		"@types/katex": "^0.16.7"
+		"astro": "^4.9.1"
 	},
 	"scripts": {
 		"dev": "astro dev",
