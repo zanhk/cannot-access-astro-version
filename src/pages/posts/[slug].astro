@@ -1,6 +1,5 @@
 ---
 import { getCollection, getEntry } from "astro:content";
-import TableOfContents from "@components/TableOfContents.astro";
 import BlogLayout from "@layouts/BlogLayout.astro";
 
 const { slug } = Astro.params;
@@ -58,10 +57,6 @@ export async function getStaticPaths() {
 		>
 			<Content
 				class="flex-1 list order-2 md:order-first lg:order-first print:order-last"
-			/>
-			<TableOfContents
-				class="flex-1 list order-1 md:order-last lg:order-last"
-				headings={headings}
 			/>
 		</article>
 	</main>
