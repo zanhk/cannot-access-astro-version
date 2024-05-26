@@ -9,7 +9,7 @@ import { defineConfig } from "astro/config";
 // https://astro.build/config
 export default defineConfig({
 	site: "https://test.sites.dev",
-	integrations: [react(), markdoc(), keystatic(), tailwind(), icon()],
+	integrations: [react(), markdoc(), tailwind(), icon(), keystatic()],
 	output: "hybrid",
 	adapter: cloudflare(),
 });
